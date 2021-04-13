@@ -11,10 +11,10 @@ public class Car {
     private Long id;
 
     @Column
-    String model;
+    private String model;
 
     @Column
-    int series;
+    private int series;
 
     @OneToOne(mappedBy = "car")
     private User user;
